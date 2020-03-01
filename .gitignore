@@ -1,0 +1,6 @@
+project/
+metals.log
+out/
+target/
+metals.*
+.bloop
