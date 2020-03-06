@@ -4,3 +4,4 @@ out/
 target/
 metals.*
 .bloop
+.idea/*
