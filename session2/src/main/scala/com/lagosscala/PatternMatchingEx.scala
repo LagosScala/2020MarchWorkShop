@@ -1,6 +1,6 @@
 package com.lagosscala
 
-object PatternMatching {
+object PatternMatchingEx {
 
   //simple constant patterns ( match is an expression )
   def matchIt(x : Any) : Unit = ???
