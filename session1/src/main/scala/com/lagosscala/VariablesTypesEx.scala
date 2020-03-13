@@ -4,13 +4,30 @@ object VariablesTypesEx  extends App {
 
   //In Scala you cannot simply create a variable and leave it un-initialized.
   //Mutable and Immutable Variables
-  val anInt = 34;
+  val anInt: Int = 34;
 
-  val aDouble = 23.0
+  val aDouble: Double = 23.0
 
-  val strValue = "Hello"
+  val strValue: String = "Hello"
 
+  val aLongVal: Long = 345L
+
+  //in Java this is referred to as a statement
   println(anInt + 34)
+
+  //in scala, it is an expression ..because it returns a value
+  val output: Unit = println("hello")
+
+  /*
+  Expressions provide a foundation for functional programming because they make it possible to return data
+  instead of modifying existing data (such as a variable). This enables the use of immutable data, a key functional
+  programming concept where new data is stored in new values instead of in existing variables
+  */
+
+  val amount  = {
+    val x = 5 * 20
+    x + 10
+  }
 
   //will not work
  // println(aDouble / "justastring")
