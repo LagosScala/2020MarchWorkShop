@@ -8,7 +8,7 @@ object ControlStructuresEx extends App {
     println(s"Number of donuts to buy = $numberOfDonuts")
   }
 
-  println("Step 2: A simple for loop from 1 to 5 inclusive")
+  println("Step 2: A simple for loop from 1 up to 10 increment by 2")
   for(numberOfDonuts <- 1 to 10 by 2){
     println(s"Number of donuts to buy = $numberOfDonuts")
   }
@@ -18,7 +18,7 @@ object ControlStructuresEx extends App {
     println(s"Number of donuts to buy = $numberOfDonuts")
   }
 
-  println("\nStep 4: Filter values using if conditions in for loop")
+  println("\nStep 4: Filter values using if conditions in for loop") // Guards
   val donutIngredients = List("flour", "sugar", "egg yolks", "syrup", "flavouring")
   for(ingredient <- donutIngredients if ingredient == "sugar"){
     println(s"Found sweetening ingredient = $ingredient")

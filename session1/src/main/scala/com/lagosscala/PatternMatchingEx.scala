@@ -48,8 +48,9 @@ object PatternMatchingEx extends App{
   }
 
   /*
-  wordsAndOpposite("hot")
-  wordsAndOpposite("hate")
+  //would throw an Exception
+  wordsAndOpposite2("hot")
+  wordsAndOpposite2("hate")
   */
 
 
