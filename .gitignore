@@ -1,6 +1,10 @@
 bin/
 project/
 target/
+
+metals.*
+.bloop
+.idea/*
 build/
 .cache
 .cache-main
